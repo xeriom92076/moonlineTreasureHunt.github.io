@@ -232,7 +232,7 @@
     border: 1px solid #ddd;
     vertical-align: top;
   }
-  .footer p {
+  .footer > p {
     font-size: 12px;
     color: #b3b3b3;
   }
