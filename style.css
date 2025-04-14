@@ -1,0 +1,234 @@
+/* 工具界面樣式 */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+  }
+  
+  .search-box {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .search-btn {
+    background: #4a8bf5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+  }
+  
+  .results-header {
+    margin-bottom: 15px;
+  }
+  
+  .loading {
+    color: #4a8bf5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* 結果樣式 */
+  .results-container {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+  }
+  
+  .result-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+  }
+  
+  .match-text {
+    background-color: yellow;
+    padding: 0 2px;
+  }
+  
+  .page-source {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .page-source a {
+    color: #4a8bf5;
+    text-decoration: none;
+  }
+  
+  .page-source a:hover {
+    text-decoration: underline;
+  }
+  
+  .no-results {
+    padding: 20px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .error {
+    color: #e74c3c;
+    background: #fdecea;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  /* 新增表格樣式確保一致性 */
+  .baha-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background: white;
+  }
+  
+  .baha-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  /* 工具界面樣式 */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+  }
+  
+  .search-box {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .search-btn {
+    background: #4a8bf5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .results-header {
+    margin-bottom: 15px;
+  }
+  
+  .loading {
+    color: #4a8bf5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* 結果樣式 */
+  .results-container {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+  }
+  
+  .result-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+  }
+  
+  .match-text {
+    background-color: yellow;
+    padding: 0 2px;
+  }
+  
+  .page-source {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .page-source a {
+    color: #4a8bf5;
+    text-decoration: none;
+  }
+  
+  .page-source a:hover {
+    text-decoration: underline;
+  }
+  
+  .no-results {
+    padding: 20px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .error {
+    color: #e74c3c;
+    background: #fdecea;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* 新增表格樣式確保一致性 */
+  .baha-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background: white;
+  }
+  
+  .baha-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .baha-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+  }
