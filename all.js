@@ -13,7 +13,7 @@ const TARGET_PAGES = [
   ];
   
   // 使用更穩定的CORS代理
-  const CORS_PROXY = 'https://corsproxy.io/?';
+  const CORS_PROXY = 'https://api.codetabs.com/v1/proxy?quest=';
   
   // 請求快取
   const requestCache = new Map();
